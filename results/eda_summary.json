@@ -1,0 +1,86 @@
+{
+  "original_rows": 1143,
+  "rows_after_duplicate_removal": 1018,
+  "duplicates_removed": 125,
+  "missing_values": 0,
+  "id_was_unique": true,
+  "positive_class_count": 137,
+  "positive_class_share": 0.13457760314341846,
+  "negative_class_count": 881,
+  "target_rule": "quality >= 7",
+  "quality_distribution": {
+    "3": 6,
+    "4": 33,
+    "5": 483,
+    "6": 462,
+    "7": 143,
+    "8": 16
+  },
+  "target_correlations": {
+    "alcohol": 0.41033095641330797,
+    "volatile acidity": -0.30234304908431947,
+    "citric acid": 0.23736884926963886,
+    "sulphates": 0.2130710128939528,
+    "density": -0.1664970997857326,
+    "free to total sulfur ratio": 0.12506445438941427,
+    "total sulfur dioxide": -0.11499028140427513,
+    "bound sulfur dioxide": -0.11368350472101564,
+    "fixed acidity": 0.10795173332525712,
+    "chlorides": -0.10559516389021201,
+    "free sulfur dioxide": -0.0673192305140704,
+    "pH": -0.06526978868148316,
+    "residual sugar": 0.06440523102901291
+  },
+  "strong_feature_pairs_abs_ge_0_50": [
+    {
+      "feature_1": "fixed acidity",
+      "feature_2": "citric acid",
+      "correlation": 0.6681781486515197
+    },
+    {
+      "feature_1": "volatile acidity",
+      "feature_2": "citric acid",
+      "correlation": -0.5424585545624001
+    },
+    {
+      "feature_1": "free sulfur dioxide",
+      "feature_2": "total sulfur dioxide",
+      "correlation": 0.6610893176872482
+    },
+    {
+      "feature_1": "fixed acidity",
+      "feature_2": "density",
+      "correlation": 0.683120129867571
+    },
+    {
+      "feature_1": "fixed acidity",
+      "feature_2": "pH",
+      "correlation": -0.6925973433867274
+    },
+    {
+      "feature_1": "citric acid",
+      "feature_2": "pH",
+      "correlation": -0.5533704446384994
+    },
+    {
+      "feature_1": "density",
+      "feature_2": "alcohol",
+      "correlation": -0.5047475035126113
+    },
+    {
+      "feature_1": "total sulfur dioxide",
+      "feature_2": "bound sulfur dioxide",
+      "correlation": 0.960616837794532
+    },
+    {
+      "feature_1": "bound sulfur dioxide",
+      "feature_2": "free to total sulfur ratio",
+      "correlation": -0.5769711607937938
+    }
+  ],
+  "outlier_method": "IQR 1.5; observações preservadas por poderem representar variação química real",
+  "feature_engineering": [
+    "bound sulfur dioxide",
+    "free to total sulfur ratio"
+  ]
+}

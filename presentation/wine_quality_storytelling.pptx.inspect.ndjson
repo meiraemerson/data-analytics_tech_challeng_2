@@ -1,0 +1,110 @@
+{"kind":"deck","id":"pr/qthm85","name":"Deck"}
+{"kind":"layout","layoutId":"6ff22a0e-7683-49f1-923e-78daa216c973","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"e51d3441-4491-435b-8a7d-47933a80bbab","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/zacavj","slide":1,"title":"TECH CHALLENGE · FASE 2","textShapes":4}
+{"kind":"shape","id":"sh/dk32dsb2","slide":1,"bbox":[0,0,24,720]}
+{"kind":"textbox","id":"sh/qhcjixsr","slide":1,"text":"TECH CHALLENGE · FASE 2","textPreview":"TECH CHALLENGE · FASE 2","textChars":23,"textLines":1,"bbox":[64,58,500,28]}
+{"kind":"textbox","id":"sh/ril0bitc","slide":1,"text":"Qualidade do vinho,\nantecipada pelos dados","textPreview":"Qualidade do vinho, | antecipada pelos dados","textChars":42,"textLines":2,"bbox":[64,158,540,190]}
+{"kind":"textbox","id":"sh/0ne1o7at","slide":1,"text":"Classificação binária a partir de medições físico-químicas","textPreview":"Classificação binária a partir de medições físico-químicas","textChars":58,"textLines":1,"bbox":[64,382,530,72]}
+{"kind":"textbox","id":"sh/18n2hcbe","slide":1,"text":"Emerson Meira  ·  Pós-Tech Data Analytics — FIAP","textPreview":"Emerson Meira  ·  Pós-Tech Data Analytics — FIAP","textChars":48,"textLines":1,"bbox":[64,604,560,30]}
+{"kind":"image","id":"im/f6dg7eps","slide":1,"name":"","alt":"Taça de vinho tinto ao lado de vidrarias em ambiente de laboratório e adega","bbox":[668,42,556,594]}
+{"kind":"notes","id":"nt/zacavj","slide":1,"text":"Apresente o problema como uma decisão de negócio: antecipar quais lotes merecem atenção premium, sem substituir o enólogo.\n\n[Sources]\nImagem: gerada para esta apresentação com OpenAI ImageGen.\nDataset: https://www.kaggle.com/datasets/yasserh/wine-quality-dataset"}
+{"kind":"slide","id":"sl/crwzh2","slide":2,"title":"Alta qualidade é rara — e exige uma régua mais cuidadosa","textShapes":6}
+{"kind":"textbox","id":"sh/kfal8fm1","slide":2,"text":"Alta qualidade é rara — e exige uma régua mais cuidadosa","textPreview":"Alta qualidade é rara — e exige uma régua mais cuidadosa","textChars":56,"textLines":1,"bbox":[56,42,1120,66]}
+{"kind":"textbox","id":"sh/je14falg","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1180,47,44,26]}
+{"kind":"shape","id":"sh/yds3654v","slide":2,"bbox":[56,112,1168,2]}
+{"kind":"textbox","id":"sh/8ju5czmx","slide":2,"text":"13,5%","textPreview":"13,5%","textChars":5,"textLines":1,"bbox":[785,178,390,108]}
+{"kind":"textbox","id":"sh/7il4julc","slide":2,"text":"dos vinhos limpos têm nota 7 ou 8","textPreview":"dos vinhos limpos têm nota 7 ou 8","textChars":33,"textLines":1,"bbox":[790,292,375,74]}
+{"kind":"textbox","id":"sh/6hcnap4r","slide":2,"text":"Olhar apenas o percentual geral de acertos esconderia os vinhos que mais importam. A avaliação precisa priorizar a classe rara.","textPreview":"Olhar apenas o percentual geral de acertos esconderia os vinhos que mais importam. A avaliação precisa priorizar a classe rara.","textChars":127,"textLines":1,"bbox":[790,420,382,130]}
+{"kind":"textbox","id":"sh/h8nmp43u","slide":2,"text":"Tech Challenge — Fase 2 | FIAP","textPreview":"Tech Challenge — Fase 2 | FIAP","textChars":30,"textLines":1,"bbox":[56,676,560,20]}
+{"kind":"image","id":"im/gf2dkvy5","slide":2,"name":"","alt":"Gráfico com 881 vinhos de baixa ou média qualidade e 137 de alta qualidade","bbox":[54,144,650,470]}
+{"kind":"notes","id":"nt/crwzh2","slide":2,"text":"Destaque que apenas 13,5% das amostras são de alta qualidade. Por isso, o sucesso não é acertar a maioria, mas localizar os poucos vinhos com maior potencial.\n\n[Sources]\nAnálise própria sobre WineQT.csv: 1.018 registros após remover 125 duplicatas exatas.\nDataset: https://www.kaggle.com/datasets/yasserh/wine-quality-dataset"}
+{"kind":"slide","id":"sl/848by0","slide":3,"title":"Álcool, sulfatos e acidez volátil concentram os sinais mais úteis","textShapes":9}
+{"kind":"textbox","id":"sh/7ehcny5s","slide":3,"text":"Álcool, sulfatos e acidez volátil concentram os sinais mais úteis","textPreview":"Álcool, sulfatos e acidez volátil concentram os sinais mais úteis","textChars":65,"textLines":1,"bbox":[56,42,1120,66]}
+{"kind":"textbox","id":"sh/sfqdw36d","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1180,47,44,26]}
+{"kind":"shape","id":"sh/tgzup8ny","slide":3,"bbox":[56,112,1168,2]}
+{"kind":"textbox","id":"sh/ipovqtob","slide":3,"text":"Álcool","textPreview":"Álcool","textChars":6,"textLines":1,"bbox":[62,172,220,38]}
+{"kind":"textbox","id":"sh/jaxcjy5w","slide":3,"text":"Maior associação positiva com alta qualidade.","textPreview":"Maior associação positiva com alta qualidade.","textChars":45,"textLines":1,"bbox":[62,214,380,58]}
+{"kind":"textbox","id":"sh/kb6ds36h","slide":3,"text":"Sulfatos","textPreview":"Sulfatos","textChars":8,"textLines":1,"bbox":[62,322,220,38]}
+{"kind":"textbox","id":"sh/5cfulon2","slide":3,"text":"Foi um dos sinais mais decisivos nas previsões finais.","textPreview":"Foi um dos sinais mais decisivos nas previsões finais.","textChars":54,"textLines":1,"bbox":[62,364,380,62]}
+{"kind":"textbox","id":"sh/2lsv2dof","slide":3,"text":"Acidez volátil","textPreview":"Acidez volátil","textChars":14,"textLines":1,"bbox":[62,476,260,38]}
+{"kind":"textbox","id":"sh/361cvi50","slide":3,"text":"Associação negativa: níveis maiores reduzem a chance estimada de nota alta.","textPreview":"Associação negativa: níveis maiores reduzem a chance estimada de nota alta.","textChars":75,"textLines":1,"bbox":[62,518,390,76]}
+{"kind":"textbox","id":"sh/ilk36l4f","slide":3,"text":"Associação não implica causalidade · Tech Challenge — Fase 2 | FIAP","textPreview":"Associação não implica causalidade · Tech Challenge — Fase 2 | FIAP","textChars":67,"textLines":1,"bbox":[56,676,560,20]}
+{"kind":"image","id":"im/svexcv2x","slide":3,"name":"","alt":"Barras de correlação das variáveis com a classe de alta qualidade","bbox":[500,150,724,485]}
+{"kind":"notes","id":"nt/848by0","slide":3,"text":"Explique os três sinais em linguagem de processo. Reforce que o gráfico mostra associação; o modelo não prova que mudar isoladamente um componente causará aumento de qualidade.\n\n[Sources]\nAnálise própria: correlação ponto-bisserial/Pearson na base limpa.\nContexto do dataset original: https://archive.ics.uci.edu/dataset/186/wine+quality"}
+{"kind":"slide","id":"sl/fr79mz","slide":4,"title":"Testamos o resultado em casos que o modelo nunca viu","textShapes":12}
+{"kind":"textbox","id":"sh/zixwzux0","slide":4,"text":"Testamos o resultado em casos que o modelo nunca viu","textPreview":"Testamos o resultado em casos que o modelo nunca viu","textChars":52,"textLines":1,"bbox":[56,42,1120,66]}
+{"kind":"textbox","id":"sh/0j6xszel","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1180,47,44,26]}
+{"kind":"shape","id":"sh/lkze14f6","slide":4,"bbox":[56,112,1168,2]}
+{"kind":"shape","id":"sh/qtofmpw3","slide":4,"bbox":[112,334,1020,0]}
+{"kind":"shape","id":"sh/buxwvuxo","slide":4,"bbox":[140,320,28,28]}
+{"kind":"textbox","id":"sh/cv6xofe9","slide":4,"text":"PREPARAR","textPreview":"PREPARAR","textChars":8,"textLines":1,"bbox":[136,230,210,28]}
+{"kind":"textbox","id":"sh/dwfexkfu","slide":4,"text":"1.018 amostras úteis","textPreview":"1.018 amostras úteis","textChars":20,"textLines":1,"bbox":[136,372,270,44]}
+{"kind":"textbox","id":"sh/ap8fy9wn","slide":4,"text":"Sem dados ausentes. Identificador e duplicatas removidos; extremos reais foram preservados.","textPreview":"Sem dados ausentes. Identificador e duplicatas removidos; extremos reais foram preservados.","textChars":91,"textLines":1,"bbox":[136,428,275,112]}
+{"kind":"shape","id":"sh/vqhg7ed8","slide":4,"bbox":[500,320,28,28]}
+{"kind":"textbox","id":"sh/ze5cfalc","slide":4,"text":"COMPARAR","textPreview":"COMPARAR","textChars":8,"textLines":1,"bbox":[496,230,210,28]}
+{"kind":"textbox","id":"sh/edwb654r","slide":4,"text":"3 alternativas avaliadas","textPreview":"3 alternativas avaliadas","textChars":24,"textLines":1,"bbox":[496,372,270,44]}
+{"kind":"textbox","id":"sh/1gnuhk32","slide":4,"text":"As opções receberam os mesmos dados e foram avaliadas sob as mesmas regras.","textPreview":"As opções receberam os mesmos dados e foram avaliadas sob as mesmas regras.","textChars":75,"textLines":1,"bbox":[496,428,275,112]}
+{"kind":"shape","id":"sh/0fet8fmx","slide":4,"bbox":[860,320,28,28]}
+{"kind":"textbox","id":"sh/nipcjal8","slide":4,"text":"CONFIRMAR","textPreview":"CONFIRMAR","textChars":9,"textLines":1,"bbox":[856,230,210,28]}
+{"kind":"textbox","id":"sh/mhwba54n","slide":4,"text":"204 casos reservados","textPreview":"204 casos reservados","textChars":20,"textLines":1,"bbox":[856,372,270,44]}
+{"kind":"textbox","id":"sh/947ulk3e","slide":4,"text":"A decisão final foi medida uma única vez em amostras mantidas fora do desenvolvimento.","textPreview":"A decisão final foi medida uma única vez em amostras mantidas fora do desenvolvimento.","textChars":86,"textLines":1,"bbox":[856,428,275,112]}
+{"kind":"textbox","id":"sh/o3ytcfmt","slide":4,"text":"Tech Challenge — Fase 2 | FIAP","textPreview":"Tech Challenge — Fase 2 | FIAP","textChars":30,"textLines":1,"bbox":[56,676,560,20]}
+{"kind":"notes","id":"nt/fr79mz","slide":4,"text":"O ponto central é credibilidade: uma parte dos dados ficou reservada até o fim. Assim, o resultado representa melhor o comportamento esperado em lotes novos.\n\n[Sources]\nMetodologia e código: src/modeling.py e src/run_analysis.py deste repositório.\nMétricas: results/model_metrics.csv."}
+{"kind":"slide","id":"sl/zbm23m","slide":5,"title":"O modelo encontra 8 em cada 9 vinhos de alta qualidade","textShapes":13}
+{"kind":"textbox","id":"sh/7q9orm9o","slide":5,"text":"O modelo encontra 8 em cada 9 vinhos de alta qualidade","textPreview":"O modelo encontra 8 em cada 9 vinhos de alta qualidade","textChars":54,"textLines":1,"bbox":[56,42,1120,66]}
+{"kind":"textbox","id":"sh/8r2pkrq9","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1180,47,44,26]}
+{"kind":"shape","id":"sh/tsb6twru","slide":5,"bbox":[56,112,1168,2]}
+{"kind":"textbox","id":"sh/utk7m18z","slide":5,"text":"88,9%","textPreview":"88,9%","textChars":5,"textLines":1,"bbox":[66,162,440,112]}
+{"kind":"textbox","id":"sh/vut8vm9k","slide":5,"text":"dos vinhos de alta qualidade foram encontrados","textPreview":"dos vinhos de alta qualidade foram encontrados","textChars":46,"textLines":1,"bbox":[72,284,430,68]}
+{"kind":"textbox","id":"sh/gf2porq5","slide":5,"text":"24","textPreview":"24","textChars":2,"textLines":1,"bbox":[600,176,210,92]}
+{"kind":"textbox","id":"sh/hgbqxwrq","slide":5,"text":"vinhos bons identificados","textPreview":"vinhos bons identificados","textChars":25,"textLines":1,"bbox":[604,276,255,66]}
+{"kind":"shape","id":"sh/ihk7q18b","slide":5,"bbox":[884,176,3,170]}
+{"kind":"textbox","id":"sh/3id8z69w","slide":5,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[940,176,180,92]}
+{"kind":"textbox","id":"sh/3a1cfa5k","slide":5,"text":"vinhos bons não identificados","textPreview":"vinhos bons não identificados","textChars":29,"textLines":1,"bbox":[944,276,240,66]}
+{"kind":"shape","id":"sh/29sbm54z","slide":5,"bbox":[590,392,594,2]}
+{"kind":"textbox","id":"sh/pwjuhknq","slide":5,"text":"45","textPreview":"45","textChars":2,"textLines":1,"bbox":[602,430,138,64]}
+{"kind":"textbox","id":"sh/ovatofm5","slide":5,"text":"lotes seriam encaminhados para revisão especializada","textPreview":"lotes seriam encaminhados para revisão especializada","textChars":52,"textLines":1,"bbox":[730,432,430,66]}
+{"kind":"textbox","id":"sh/f6hcba58","slide":5,"text":"Desses alertas, 24 eram realmente de alta qualidade. A avaliação humana continua essencial.","textPreview":"Desses alertas, 24 eram realmente de alta qualidade. A avaliação humana continua essencial.","textChars":91,"textLines":1,"bbox":[602,528,560,70]}
+{"kind":"textbox","id":"sh/u58bi5o3","slide":5,"text":"Resultado em 204 casos reservados","textPreview":"Resultado em 204 casos reservados","textChars":33,"textLines":1,"bbox":[72,570,390,30]}
+{"kind":"textbox","id":"sh/18jud0ne","slide":5,"text":"Tech Challenge — Fase 2 | FIAP","textPreview":"Tech Challenge — Fase 2 | FIAP","textChars":30,"textLines":1,"bbox":[56,676,560,20]}
+{"kind":"notes","id":"nt/zbm23m","slide":5,"text":"Em 27 vinhos realmente bons, o modelo encontrou 24 e deixou passar 3. Ele gerou 45 alertas, dos quais 24 foram confirmados. Isso é útil para priorizar, mas não para automatizar a decisão final.\n\n[Sources]\nAnálise própria: results/classification_report_random_forest.json.\nTeste estratificado: 204 amostras; random_state=42."}
+{"kind":"slide","id":"sl/pdgn7k","slide":6,"title":"Random Forest encontrou mais vinhos de alta qualidade","textShapes":18}
+{"kind":"textbox","id":"sh/fmxwfi18","slide":6,"text":"Random Forest encontrou mais vinhos de alta qualidade","textPreview":"Random Forest encontrou mais vinhos de alta qualidade","textChars":53,"textLines":1,"bbox":[56,42,1120,66]}
+{"kind":"textbox","id":"sh/0nqx8n2t","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1180,47,44,26]}
+{"kind":"shape","id":"sh/1ozyhsje","slide":6,"bbox":[56,112,1168,2]}
+{"kind":"textbox","id":"sh/2p8faxkz","slide":6,"text":"Alternativa","textPreview":"Alternativa","textChars":11,"textLines":1,"bbox":[72,174,300,34]}
+{"kind":"textbox","id":"sh/nqhgji1k","slide":6,"text":"Vinhos bons\nencontrados","textPreview":"Vinhos bons | encontrados","textChars":23,"textLines":2,"bbox":[428,158,250,66]}
+{"kind":"textbox","id":"sh/orqxcn25","slide":6,"text":"Alertas\nconfirmados","textPreview":"Alertas | confirmados","textChars":19,"textLines":2,"bbox":[730,158,230,66]}
+{"kind":"shape","id":"sh/pszylsjq","slide":6,"bbox":[62,226,902,2]}
+{"kind":"shape","id":"sh/at8fexkv","slide":6,"bbox":[60,242,906,78]}
+{"kind":"textbox","id":"sh/buhgn21g","slide":6,"text":"Random Forest","textPreview":"Random Forest","textChars":13,"textLines":1,"bbox":[72,258,300,38]}
+{"kind":"textbox","id":"sh/7mhkvu10","slide":6,"text":"88,9%","textPreview":"88,9%","textChars":5,"textLines":1,"bbox":[428,258,220,38]}
+{"kind":"textbox","id":"sh/6l8j2pkf","slide":6,"text":"53,3%","textPreview":"53,3%","textChars":5,"textLines":1,"bbox":[730,258,220,38]}
+{"kind":"textbox","id":"sh/toj2xkj6","slide":6,"text":"SVM","textPreview":"SVM","textChars":3,"textLines":1,"bbox":[72,360,300,38]}
+{"kind":"textbox","id":"sh/snq14f2l","slide":6,"text":"63,0%","textPreview":"63,0%","textChars":5,"textLines":1,"bbox":[428,360,220,38]}
+{"kind":"textbox","id":"sh/jihkra14","slide":6,"text":"45,9%","textPreview":"45,9%","textChars":5,"textLines":1,"bbox":[730,360,220,38]}
+{"kind":"textbox","id":"sh/yh8jy5kj","slide":6,"text":"Regressão logística","textPreview":"Regressão logística","textChars":19,"textLines":1,"bbox":[72,462,300,38]}
+{"kind":"textbox","id":"sh/5kz2tkju","slide":6,"text":"63,0%","textPreview":"63,0%","textChars":5,"textLines":1,"bbox":[428,462,220,38]}
+{"kind":"textbox","id":"sh/kjq10f2p","slide":6,"text":"42,5%","textPreview":"42,5%","textChars":5,"textLines":1,"bbox":[730,462,220,38]}
+{"kind":"shape","id":"sh/3e1k3e18","slide":6,"bbox":[980,158,3,410]}
+{"kind":"textbox","id":"sh/2ds3a90n","slide":6,"text":"O que isso muda","textPreview":"O que isso muda","textChars":15,"textLines":1,"bbox":[1012,184,206,38]}
+{"kind":"textbox","id":"sh/e9wn2dkv","slide":6,"text":"A melhor opção amplia a chance de identificar lotes promissores antes da degustação.","textPreview":"A melhor opção amplia a chance de identificar lotes promissores antes da degustação.","textChars":84,"textLines":1,"bbox":[1012,244,206,158]}
+{"kind":"textbox","id":"sh/za54vilg","slide":6,"text":"A confirmação humana continua necessária.","textPreview":"A confirmação humana continua necessária.","textChars":41,"textLines":1,"bbox":[1012,452,206,88]}
+{"kind":"textbox","id":"sh/0be54321","slide":6,"text":"Tech Challenge — Fase 2 | FIAP","textPreview":"Tech Challenge — Fase 2 | FIAP","textChars":30,"textLines":1,"bbox":[56,676,560,20]}
+{"kind":"notes","id":"nt/pdgn7k","slide":6,"text":"As três alternativas receberam os mesmos dados. O Random Forest encontrou 88,9% dos vinhos bons, enquanto as outras duas encontraram 63%. Por isso, ele foi escolhido para a triagem.\n\n[Sources]\nAnálise própria: results/model_metrics.csv.\nModelos: Regressão Logística, Random Forest e SVM RBF."}
+{"kind":"slide","id":"sl/nqaswc","slide":7,"title":"RECOMENDAÇÃO","textShapes":10}
+{"kind":"textbox","id":"sh/b6xwzaxc","slide":7,"text":"RECOMENDAÇÃO","textPreview":"RECOMENDAÇÃO","textChars":12,"textLines":1,"bbox":[58,48,260,28]}
+{"kind":"textbox","id":"sh/c76d8fyx","slide":7,"text":"Use o modelo como triagem,\nnão como piloto automático","textPreview":"Use o modelo como triagem, | não como piloto automático","textChars":53,"textLines":2,"bbox":[58,132,770,156]}
+{"kind":"shape","id":"sh/d8fe1kfi","slide":7,"bbox":[60,356,330,3]}
+{"kind":"textbox","id":"sh/2h4v2lgv","slide":7,"text":"1 · Priorizar","textPreview":"1 · Priorizar","textChars":13,"textLines":1,"bbox":[60,382,330,40]}
+{"kind":"textbox","id":"sh/32dwvqxg","slide":7,"text":"Direcione lotes com maior probabilidade para avaliação especializada.","textPreview":"Direcione lotes com maior probabilidade para avaliação especializada.","textChars":69,"textLines":1,"bbox":[60,444,330,112]}
+{"kind":"shape","id":"sh/o36d4vy1","slide":7,"bbox":[452,356,330,3]}
+{"kind":"textbox","id":"sh/p4fex0f6","slide":7,"text":"2 · Confirmar","textPreview":"2 · Confirmar","textChars":13,"textLines":1,"bbox":[452,382,330,40]}
+{"kind":"textbox","id":"sh/mx8fepwz","slide":7,"text":"Mantenha a decisão final com o enólogo e registre falsos alertas.","textPreview":"Mantenha a decisão final com o enólogo e registre falsos alertas.","textChars":65,"textLines":1,"bbox":[452,444,330,112]}
+{"kind":"shape","id":"sh/nyhw7uxk","slide":7,"bbox":[844,356,330,3]}
+{"kind":"textbox","id":"sh/7uxsnupw","slide":7,"text":"3 · Aprender","textPreview":"3 · Aprender","textChars":12,"textLines":1,"bbox":[844,382,330,40]}
+{"kind":"textbox","id":"sh/mtobup8b","slide":7,"text":"Valide em novos lotes, inclua safra e processo e revise a regra de decisão.","textPreview":"Valide em novos lotes, inclua safra e processo e revise a regra de decisão.","textChars":75,"textLines":1,"bbox":[844,444,330,112]}
+{"kind":"textbox","id":"sh/9gfap47m","slide":7,"text":"Limite atual: base pequena, desbalanceada e restrita a vinhos tintos Vinho Verde.","textPreview":"Limite atual: base pequena, desbalanceada e restrita a vinhos tintos Vinho Verde.","textChars":81,"textLines":1,"bbox":[60,620,900,30]}
+{"kind":"textbox","id":"sh/8v6twzq1","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1180,650,44,24]}
+{"kind":"notes","id":"nt/nqaswc","slide":7,"text":"Feche com a decisão recomendada e os próximos passos. O modelo cria valor quando organiza a fila de análise e aprende com novos lotes.\n\n[Sources]\nLimitações derivadas da documentação do dataset: https://archive.ics.uci.edu/dataset/186/wine+quality\nPipeline e resultados: repositório do projeto."}

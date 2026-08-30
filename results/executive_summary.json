@@ -1,0 +1,161 @@
+{
+  "dataset": {
+    "original_rows": 1143,
+    "rows_after_duplicate_removal": 1018,
+    "duplicates_removed": 125,
+    "missing_values": 0,
+    "id_was_unique": true,
+    "positive_class_count": 137,
+    "positive_class_share": 0.13457760314341846,
+    "negative_class_count": 881,
+    "target_rule": "quality >= 7",
+    "quality_distribution": {
+      "3": 6,
+      "4": 33,
+      "5": 483,
+      "6": 462,
+      "7": 143,
+      "8": 16
+    },
+    "target_correlations": {
+      "alcohol": 0.41033095641330797,
+      "volatile acidity": -0.30234304908431947,
+      "citric acid": 0.23736884926963886,
+      "sulphates": 0.2130710128939528,
+      "density": -0.1664970997857326,
+      "free to total sulfur ratio": 0.12506445438941427,
+      "total sulfur dioxide": -0.11499028140427513,
+      "bound sulfur dioxide": -0.11368350472101564,
+      "fixed acidity": 0.10795173332525712,
+      "chlorides": -0.10559516389021201,
+      "free sulfur dioxide": -0.0673192305140704,
+      "pH": -0.06526978868148316,
+      "residual sugar": 0.06440523102901291
+    },
+    "strong_feature_pairs_abs_ge_0_50": [
+      {
+        "feature_1": "fixed acidity",
+        "feature_2": "citric acid",
+        "correlation": 0.6681781486515197
+      },
+      {
+        "feature_1": "volatile acidity",
+        "feature_2": "citric acid",
+        "correlation": -0.5424585545624001
+      },
+      {
+        "feature_1": "free sulfur dioxide",
+        "feature_2": "total sulfur dioxide",
+        "correlation": 0.6610893176872482
+      },
+      {
+        "feature_1": "fixed acidity",
+        "feature_2": "density",
+        "correlation": 0.683120129867571
+      },
+      {
+        "feature_1": "fixed acidity",
+        "feature_2": "pH",
+        "correlation": -0.6925973433867274
+      },
+      {
+        "feature_1": "citric acid",
+        "feature_2": "pH",
+        "correlation": -0.5533704446384994
+      },
+      {
+        "feature_1": "density",
+        "feature_2": "alcohol",
+        "correlation": -0.5047475035126113
+      },
+      {
+        "feature_1": "total sulfur dioxide",
+        "feature_2": "bound sulfur dioxide",
+        "correlation": 0.960616837794532
+      },
+      {
+        "feature_1": "bound sulfur dioxide",
+        "feature_2": "free to total sulfur ratio",
+        "correlation": -0.5769711607937938
+      }
+    ],
+    "outlier_method": "IQR 1.5; observações preservadas por poderem representar variação química real",
+    "feature_engineering": [
+      "bound sulfur dioxide",
+      "free to total sulfur ratio"
+    ]
+  },
+  "best_model": "Random Forest",
+  "best_model_test_metrics": {
+    "model": "Random Forest",
+    "cv_pr_auc": 0.5903156272889218,
+    "threshold": 0.20666666666666667,
+    "accuracy": 0.8823529411764706,
+    "balanced_accuracy": 0.8851224105461393,
+    "precision": 0.5333333333333333,
+    "recall": 0.8888888888888888,
+    "f1": 0.6666666666666666,
+    "roc_auc": 0.9142079933040383,
+    "pr_auc": 0.6969374741096064,
+    "best_params": "{\"model__max_depth\": null, \"model__max_features\": \"sqrt\", \"model__min_samples_leaf\": 1, \"model__n_estimators\": 600}"
+  },
+  "top_features": [
+    {
+      "feature": "sulphates",
+      "importance_mean": 0.1365635834266893,
+      "importance_std": 0.04993189230764185
+    },
+    {
+      "feature": "alcohol",
+      "importance_mean": 0.12649165214598296,
+      "importance_std": 0.049899981335842634
+    },
+    {
+      "feature": "volatile acidity",
+      "importance_mean": 0.06586368908435028,
+      "importance_std": 0.04996140955553136
+    },
+    {
+      "feature": "citric acid",
+      "importance_mean": 0.03683453735924207,
+      "importance_std": 0.02763666352682407
+    },
+    {
+      "feature": "density",
+      "importance_mean": 0.020596297064051156,
+      "importance_std": 0.016943402451809902
+    },
+    {
+      "feature": "fixed acidity",
+      "importance_mean": 0.020329072191314104,
+      "importance_std": 0.011711710118686647
+    },
+    {
+      "feature": "pH",
+      "importance_mean": 0.012746332927452286,
+      "importance_std": 0.014199987125349057
+    },
+    {
+      "feature": "free to total sulfur ratio",
+      "importance_mean": 0.008270815357870198,
+      "importance_std": 0.01990820025562629
+    },
+    {
+      "feature": "total sulfur dioxide",
+      "importance_mean": 0.007264877357895094,
+      "importance_std": 0.02053995001181333
+    },
+    {
+      "feature": "bound sulfur dioxide",
+      "importance_mean": 0.0020829292736830357,
+      "importance_std": 0.018692605430871735
+    }
+  ],
+  "methodology": {
+    "split": "80% treino / 20% teste, estratificado",
+    "validation": "GridSearchCV com 5 folds estratificados no treino",
+    "selection_metric": "average precision (PR-AUC)",
+    "threshold": "otimizado por F1 usando apenas predições out-of-fold do treino",
+    "test_policy": "conjunto de teste usado uma única vez na avaliação final"
+  }
+}

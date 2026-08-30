@@ -1,0 +1,10 @@
+feature_1,feature_2,correlation
+total sulfur dioxide,bound sulfur dioxide,0.960616837794532
+fixed acidity,pH,-0.6925973433867274
+fixed acidity,density,0.683120129867571
+fixed acidity,citric acid,0.6681781486515197
+free sulfur dioxide,total sulfur dioxide,0.6610893176872482
+bound sulfur dioxide,free to total sulfur ratio,-0.5769711607937938
+citric acid,pH,-0.5533704446384994
+volatile acidity,citric acid,-0.5424585545624001
+density,alcohol,-0.5047475035126113
