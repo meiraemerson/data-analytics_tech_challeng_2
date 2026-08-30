@@ -86,7 +86,7 @@ wine-quality-classification/
 ## Entregáveis executivos
 
 - Apresentação: [`presentation/wine_quality_storytelling.pptx`](presentation/wine_quality_storytelling.pptx) e [`presentation/wine_quality_storytelling.pdf`](presentation/wine_quality_storytelling.pdf).
-
+- Vídeo Executivo: 
 ## Como reproduzir
 
 ```bash
