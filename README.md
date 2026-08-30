@@ -86,8 +86,6 @@ wine-quality-classification/
 ## Entregáveis executivos
 
 - Apresentação: [`presentation/wine_quality_storytelling.pptx`](presentation/wine_quality_storytelling.pptx) e [`presentation/wine_quality_storytelling.pdf`](presentation/wine_quality_storytelling.pdf).
-- Roteiro do vídeo de até cinco minutos: [`VIDEO_SCRIPT.md`](VIDEO_SCRIPT.md).
-- Auditoria final de aderência: [`SUBMISSION_CHECKLIST.md`](SUBMISSION_CHECKLIST.md).
 
 ## Como reproduzir
 
